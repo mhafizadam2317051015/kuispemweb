@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linktree Hafiz Adam</title>
+
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <main>
+        <div class="logoContainer">
+            <img class="Banana" src="banana.png" alt="Banana" />
+        </div>
+        <div class="greetings">
+            <h1>Hafiz Adam</h1>
+        </div>
+        <div class="about">
+            <p>Hi there, here are some links!</p>
+        </div>
+        <div class="links" id="links">
+            <a href="https://discord.com" target="_blank" class="link-button">Join Discord Server</a>
+            <a href="https://linktr.ee" target="_blank" class="link-button">Linktree</a>
+        </div>
+    </main>
+</body>
+
+</html>
