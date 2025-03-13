@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Kuliah</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: url('bananabg.jpg');
+            background-size: cover;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        main {
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+            padding: 20px;
+            background: #333;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            color: white;
+        }
+
+        .logoContainer {
+            margin-bottom: 20px;
+        }
+
+        .Banana {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .Description {
+            margin-bottom: 20px;
+        }
+
+        .schedule {
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0 auto;
+            background: #444;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 15px;
+            border: 1px solid #555;
+            text-align: center;
+            color: white;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        td {
+            background-color: #555;
+        }
+
+        tr:hover td {
+            background-color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="logoContainer">
+            <img class="Banana" src="banana.png" alt="Banana" />
+        </div>
+        <div class="Description">
+            <h1>Jadwal Kuliah Muhammad Hafiz Adam</h1>
+        </div>
+        <div class="schedule">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hari</th>
+                        <th>Mata Kuliah</th>
+                        <th>Waktu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Senin</td>
+                        <td>Pemrograman Web</td>
+                        <td>08:00 - 10:00</td>
+                    </tr>
+                    <tr>
+                        <td>Rabu</td>
+                        <td>ADSI</td>
+                        <td>10:00 - 12:00</td>
+                    </tr>
+                    <tr>
+                        <td>Jumat</td>
+                        <td>TAM</td>
+                        <td>13:00 - 15:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+
+</html>
